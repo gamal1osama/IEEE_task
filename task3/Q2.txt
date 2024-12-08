@@ -1,0 +1,31 @@
+Ensemble Learning: 
+	1- is a machine learning technique where multiple models (often called "base learners" or "weak learners")
+	   are combined to achieve better performance than any individual model
+
+	2- The key idea is that by aggregating the outputs of different models, the ensemble can reduce bias, variance,
+	   or both, leading to more robust and accurate predictions
+
+
+
+Common Types of Ensemble Methods:
+	1. Bagging (Bootstrap Aggregating):
+		* Multiple models are trained on different subsets of the data (created via bootstrapping).
+		* Example: Random Forest, which combines multiple decision trees.
+	2. Boosting:
+		* Models are trained sequentially, where each new model focuses on correcting the errors made by the previous models
+		* Example: Gradient Boosting, AdaBoost, XGBoost
+	3. Stacking:
+		* Different models are trained, and their outputs are combined by another model (a "meta-learner") to make the final prediction
+
+
+Benefits of Ensemble Learning:
+	Improved accuracy compared to single models
+	Reduces overfitting (bagging) or bias (boosting)
+	Robustness by combining insights from various models
+
+
+
+
+
+
+

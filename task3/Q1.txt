@@ -1,0 +1,16 @@
+Overfitting vs. Underfitting
+     1- Overfitting
+	* Definition: The model learns the training data too well, capturing noise and fluctuations, which reduces its ability to generalize to new data
+	* Indicators: 1. High accuracy on training data but poor performance on test data
+		      2. Model complexity is too high (e.g., too many features or overly complex functions)
+        * Solution: 1. Simplify the model
+		    2. Use regularization techniques 
+		    3. Increase training data or apply dropout (for neural networks)
+		    
+     2- Underfitting
+	* Definition: The model is too simple to capture the underlying patterns in the data
+	* Indicators:   1. Poor performance on both training and test data
+			2. The model fails to capture relationships in the data
+	* Solution: 1.Use more relevant features
+		    2.Increase model complexity
+		    3.Train for more epochs (for neural networks)

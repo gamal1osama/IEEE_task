@@ -1,0 +1,20 @@
+Backward Propagation (Backpropagation) is an algorithm used for training neural networks.
+It is a supervised learning technique that optimizes the model by adjusting weights based on the error between the predicted and actual output.
+
+
+
+How it works:
+	1. Forward Pass:
+		* First, the input data is passed through the network (layer by layer) to calculate the predicted output.
+	2. Error Calculation:
+		* The error (or loss) is computed by comparing the predicted output with the actual target value, often using 
+		  a loss function (e.g., Mean Squared Error for regression or Cross-Entropy for classification).
+	3. Backward Pass:
+		* The error is propagated backward through the network, starting from the output layer to the input layer. 
+		  During this pass, the algorithm calculates the gradient of the error with respect to each weight in the network.
+	4. Gradient Descent:
+		* Using the gradients calculated from the backward pass, the weights are updated in the direction that minimizes the error.
+		  This is typically done using an optimization algorithm like gradient descent.
+
+	5. Iterative Process:
+		* The process is repeated for many iterations (or epochs) to iteratively reduce the error and improve the model's accuracy.
